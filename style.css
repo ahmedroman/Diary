@@ -1,0 +1,549 @@
+*{margin: 0;padding: 0;}
+body{font-family:Arial;font-size:14px;color:#000;}
+.main {
+	
+	
+   height: 850px;
+   background: url(images/back-2.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+    overflow: hidden;
+    
+}
+
+.menu{
+	width: 100%;
+	
+	
+}
+
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+	float: right;
+
+}
+.menu ul li{
+	border-right: 1px solid #ddd;
+
+	float:left;
+	padding : 15px;
+	overflow:hidden;
+
+}
+.menu ul li:last-child{
+	border-right: none;
+	
+
+}
+.menu ul li a{
+	display:; background:;
+	 color: #000000; 
+	 padding: 10px 10px;
+
+	 text-decoration:none;
+	 overflow:hidden;
+}
+.menu ul li a:hover{
+	background: #A82643;
+	border-radius: .5em;
+	 color: white;
+	 overflow:hidden;
+}
+
+
+.login{
+	height: 35%;
+	width: 25%;
+	background: rgba(182,31,63,.7);
+
+	margin-top: 250px;
+	float: left;
+	padding: 20px auto;
+    margin-left: 10%;
+    border-radius: 1em;
+    background-size: 150%;
+	
+}
+.login form {
+	margin-top: 15%;
+	margin-left: 15%;
+	padding-left: 
+}
+.login label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.login input{
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 80%;
+	border-radius: .5em;
+}
+#logbtn{
+	width: 80%;
+	background: white;
+}
+.footer{
+	
+}
+.regmain{
+	height: 850px;
+   background: url(images/back-2.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+    overflow: hidden;
+
+}
+.regform{
+	height: 75%;
+	width: 25%;
+	background: rgba(182,31,63,.7);
+
+	margin-top: 19%;
+	float: left;
+	padding: 20px auto;
+    margin-left: 10%;
+    border-radius: 1em;
+    background-size: 150%;
+}
+.regform form{
+	margin-top: 10%;
+	margin-left: 15%;
+	padding-left: 
+}
+.regform label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.regform input{
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 80%;
+	border-radius: .5em;
+}
+#drop{
+	font-style:oblique; 
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 80%;
+	border-radius: .5em;
+}
+.hmain{
+	height: 850px;
+   background: url(images/back-6.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+    overflow: hidden;
+}
+.profile{
+	height: 620px;
+	width: 30%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: right;
+	padding: 20px auto;
+    margin-right: -35%;
+    border-radius: 1em;
+    background-size: 150%;
+    display: none;
+}
+.profile label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.pshow{
+	margin-top: 15%;
+	margin-left: 15%;
+	padding-left: 
+}
+.profile form{
+	margin-top: 15%;
+	margin-left: 15%;
+	padding-left:
+}
+.profile form input{
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 85%;
+	border-radius: .5em;
+	margin-bottom: 10px;
+}
+.profile a{
+	display:; background:;
+	 color: #000000; 
+	 padding: 10px 10px;
+
+	 text-decoration:none;
+	 overflow:hidden;
+}
+.profile a:hover{
+	background: white;
+	border-radius: .5em;
+	 color: black;
+	 overflow:hidden;
+
+}
+#pro{
+	font-size: 25px;
+	font-style: oblique;
+}
+.propic{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #000;
+	margin-left: 15%;
+}
+.note{
+	height: 70%;
+	width: 40%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: left;
+	padding: 20px auto;
+    margin-left: 5%;
+    border-radius: 1em;
+    background-size: 150%;
+
+}
+.note label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.note form{
+	margin-top: 10%;
+	margin-left: 10%;
+	padding-left: 
+}
+.note form textarea{
+	height: 50%;
+	width: 85%;
+	border-radius: .5em;
+}
+.note input{
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 85%;
+	border-radius: .5em;
+	margin-bottom: 10px;
+}
+#scheck{
+	
+	height: 25px;
+	width: 25%;
+	
+	margin-bottom: 10px;
+}
+.show{
+	height: 50%;
+	width: 30%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: right;
+	padding: 20px auto;
+    margin-right: -30%;
+    border-radius: 1em;
+    background-size: 150%;
+    
+}
+.show label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.show form{
+	margin-top: 10%;
+	margin-left: 10%;
+	padding-left: 
+}
+.show input{
+	box-shadow:0 1px 2px #aaa;
+	height: 35px;
+	width: 85%;
+	border-radius: .5em;
+	margin-bottom: 10px;
+}
+#ita{
+	font-style: italic;
+	position: relative;
+	
+	border-collapse: separate;
+}
+.smain{
+	height: 850px;
+   background: url(images/back-6.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+   overflow: hidden;
+
+}
+.sprofile{
+	height: 700px;
+	width: 30%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: right;
+	padding: 20px auto;
+    margin-right: -30%;
+    border-radius: 1em;
+    background-size: 150%;
+    display: none;
+}
+.sprofile label{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+.sprofile form{
+	margin-top: 15%;
+	margin-left: 15%;
+	padding-left: 
+}
+.sprofile a{
+	display:; background:;
+	 color: #000000; 
+	 padding: 10px 10px;
+
+	 text-decoration:none;
+	 overflow:hidden;
+}
+.sprofile a:hover{
+	background: white;
+	border-radius: .5em;
+	 color: black;
+	 overflow:hidden;
+
+}
+.smenu{
+	width: 100%;
+	
+	
+}
+
+.smenu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+	float: right;
+
+}
+.smenu ul li{
+	border-right: 1px solid #ddd;
+
+	float:left;
+	padding : 15px;
+	overflow:hidden;
+
+}
+.smenu ul li:last-child{
+	border-right: none;
+	
+
+}
+.smenu ul li a{
+	display:; background:;
+	 color: #000000; 
+	 padding: 10px 10px;
+
+	 text-decoration:none;
+	 overflow:hidden;
+}
+.smenu ul li a:hover{
+	background: #A82643;
+	border-radius: .5em;
+	 color: white;
+	 overflow:hidden;
+}
+.nshow{
+	height: 70%;
+	width: 60%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: left;
+	padding: 20px auto;
+    margin-left: 5%;
+    border-radius: 1em;
+    background-size: 150%;
+}
+.nshow label{
+	color: black;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+
+	
+}
+#nname{
+	color: white;
+	font-size: 20px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+}
+.nshow form{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 8%; 
+}
+.nshow p{
+	color: white;
+	font-size: 18px;
+	font-style: oblique;
+	position: relative;
+	
+	border-collapse: separate;
+}
+.sharemain{
+	min-height: 800px;
+   background: url(images/back-6.jpg) no-repeat fixed  ;
+
+   background-size: 100%;
+   display: block;
+    overflow: hidden;
+}
+.datatable{
+	width: 700px;
+	margin-top: 100px;
+	margin-left: 100px;
+
+}
+
+
+.shnote{
+		height: ;
+	width: 160%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	/*float: left;*/
+	padding: 20px auto;
+    margin-left: -30%;
+    border-radius: 1em;
+    background-size: 150%;
+}
+.shnote label{
+	margin-left: 5%;
+	color: ;
+	font-size: 18px;
+}
+.shnote p{
+	margin-left: 5%;
+	color: white ;
+	font-size: 18px;
+}
+.shnote form textarea{
+	width: 80%;
+	margin-left: 5%;
+	border-radius: .5em;
+}
+.shnote form input{
+	border-radius: .3em;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.shnote a{
+	text-decoration: none;
+}
+.shnote a:hover{
+	font-size: 22px;
+
+}
+
+.cmain{
+		height: 850px;
+   background: url(images/back-6.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+    overflow: hidden;
+}
+.pmain{
+	height: 850px;
+   background: url(images/back-6.jpg)  no-repeat  ;
+   background-size: 100%;
+   display: block;
+   overflow: hidden;
+}
+.proinfo{
+	height: 700px;
+	width: 50%;
+	background: rgba(182,31,63,.6);
+
+	margin-top: 5%;
+	float: center;
+	padding: 20px auto;
+    margin-left: 25%;
+    border-radius: 1em;
+    background-size: 150%;
+    
+
+}
+.props{
+	margin-top: 40px;
+	margin-left: 5%;
+}
+label#pros{
+	margin-top: 30px;
+}
+#pros{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 100px;
+	color: white;
+	font-size: 20px;
+	
+}
+#pid{
+	font-size: 18px;
+
+	margin-left: 100px;
+}
+#piid{
+	font-size: 18px;
+	color: white;
+	/*margin-left: 50px;*/
+}
